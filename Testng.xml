@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="todo app Regression Suite" parallel="classes" verbose="1">
+    <parameter name="browser" value="chrome">
+        <test name="com.automationExercise.TestCases">
+            <classes>
+                <class name="MobileBrowser.TestAddTodo"/>
+            </classes>
+        </test>
+
+    </parameter>
+</suite>
